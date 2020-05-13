@@ -1,0 +1,25 @@
+version: 1
+formatters:
+  brief:
+    format: '%(asctime)s %(levelname)-8s [%(module)s] %(message)s'
+    datefmt: '%H:%M:%S'
+  precise:
+    format: '%(asctime)s %(levelname)s [%(pathname)s] %(message)s'
+    datefmt: '%Y-%m-%d %H:%M:%S'
+handlers:
+  console:
+    class: logging.StreamHandler
+    formatter: brief
+    level: DEBUG
+    stream: ext://sys.stdout
+  file:
+    class: logging.handlers.RotatingFileHandler
+    formatter: precise
+    filename: /var/log/cbbdti.log
+    maxBytes: 5242880
+    backupCount: 5
+    level: DEBUG
+root:
+  level: DEBUG
+  handlers: [console, file]
+  propagate: no
