@@ -1,7 +1,9 @@
 # CBLD-BDTI
 
-> **NOTICE**: This integration is in development due the absence
-> of a Cygnus Linked Data ready version.
+> **NOTICE**: For this version, the solution provider made every effort to provide a stable and functional release. 
+> No thorough testing was conducted due to the absence of a Cygnus Linked Data ready version. 
+> There is warranty, expressed or implied, as to the reliability and stability of the solution. 
+> The support team remains available to help on any issue that can be encountered and any feedback is thoroughly appreciated.
 
 CEF Context Broker Linked Data integration with the Big Data Test Infrastructure.
 
