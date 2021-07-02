@@ -1,5 +1,7 @@
 # CBLD-BDTI
 
+**Please note that support questions will not be monitored during the summer period of July and August. **
+
 > **NOTICE**: For this version, the solution provider made every effort to provide a stable and functional release. 
 > No thorough testing was conducted due to the absence of a Cygnus Linked Data ready version. 
 > There is warranty, expressed or implied, as to the reliability and stability of the solution. 
